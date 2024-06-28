@@ -20,7 +20,6 @@ with open('c://Users//AARUSHI//Downloads//test_data.csv', 'r') as csvfile:
 
     start_time = time.time()
     c = datetime.datetime.now()
-    
     def get_lat_direction(lat):
         return "N" if lat >= 0 else "S"
     
